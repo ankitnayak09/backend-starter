@@ -1,7 +1,7 @@
 import express from "express"
-import { errorHandler } from "middlewares/error.middleware"
-import { notFound } from "middlewares/notFound.middleware"
-import healthRouter from "routes/health.route"
+import { errorHandler } from "./middlewares/error.middleware"
+import { notFound } from "./middlewares/notFound.middleware"
+import healthRouter from "./routes/health.route"
 
 const app = express()
 
